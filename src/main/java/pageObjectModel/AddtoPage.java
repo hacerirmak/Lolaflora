@@ -54,6 +54,7 @@ public class AddtoPage extends AbstarctClass {
     private WebElement calender;
 
     public void selectCalender() {
+        if (calender != null)
         clickFunction(calender);
     }
 
