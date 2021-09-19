@@ -70,5 +70,6 @@ public class AddtoPage extends AbstarctClass {
 
     public void assertMyMessage() {
         Assertion(succesMessage, "Please note you are sending this product to Spain.");
+        Driver.closeDriver();
     }
 }
